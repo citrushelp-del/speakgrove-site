@@ -3,69 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SpeakGrove Privacy Policy</title>
-<style>
-  :root { --bg:#fbfaf6; --fg:#1d2a22; --muted:#5b6b61; --accent:#0e3d28; --line:#dfe4dc; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#111814; --fg:#e7ede8; --muted:#a3b2a8; --accent:#7fd0a2; --line:#2a352e; } }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
-  h1 { color: var(--accent); margin-bottom: 4px; }
-  h2 { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 20px; }
-  .meta { color: var(--muted); }
-  nav a { color: var(--accent); margin-right: 12px; }
-  table { border-collapse: collapse; width: 100%; }
-  td, th { border: 1px solid var(--line); padding: 8px; vertical-align: top; text-align: left; }
-  a { color: var(--accent); }
-</style>
+<title>SpeakGrove</title>
+<link rel="canonical" href="https://speakgrove.web.app/privacy/">
+<meta http-equiv="refresh" content="0; url=https://speakgrove.web.app/privacy/">
+<script>location.replace('https://speakgrove.web.app/privacy/' + location.hash);</script>
 </head>
 <body>
-<main>
-<nav><a href="../">SpeakGrove</a> <a href="../terms/">Terms</a></nav>
-<h1>SpeakGrove Privacy Policy</h1>
-<p class="meta">Last updated: 18 November 2026 · <a href="#tr">Türkçe</a></p>
-
-<section id="en">
-<p>SpeakGrove ("we") is a language-learning app published by Ahmet Sahin. This policy explains what data the app processes, why, and the choices you have. Contact: <a href="mailto:citrushelp@gmail.com">citrushelp@gmail.com</a>.</p>
-
-<h2>Data stored on your device</h2>
-<p>Your learning path, placement level, goals, streak, XP, review cards, lesson history and conversation transcripts are stored on your device. You can use the app without an account. You can export or delete this data from Settings.</p>
-
-<h2>Data we process</h2>
-<table>
-<tr><th>Data</th><th>When</th><th>Why</th><th>Processed by</th></tr>
-<tr><td>Account: email address, account ID, and your name if you sign in with Google</td><td>Only if you sign in</td><td>Sign-in, cloud backup, family or class membership</td><td>Google Firebase Authentication</td></tr>
-<tr><td>Learning progress</td><td>Only if you sign in</td><td>Cloud backup and sync between your devices</td><td>Google Cloud Firestore, EU (Belgium)</td></tr>
-<tr><td>Family and class membership: role, display name, invite codes, homework and submissions</td><td>Only if you create or join a family or class</td><td>Sharing a family plan (up to 4 people) and running a class. Membership changes are made by our server after it checks the plan.</td><td>Google Cloud Firestore, EU</td></tr>
-<tr><td>AI tutor messages (text; in voice mode, audio)</td><td>Only when you use the live AI tutor or AI writing checks (Premium or the free trial)</td><td>Producing tutor replies and corrections. Not kept after the reply, apart from short-lived technical logs (up to 30 days). The free plan's offline coach runs on your device and sends nothing.</td><td>Our server on Google Cloud Run (EU) and Google's Gemini models on Vertex AI (EU). Google does not use this data to train its models.</td></tr>
-<tr><td>Daily AI usage count, linked to your account or purchase ID</td><td>When you use the live AI tutor</td><td>Applying your plan's daily limit. Deleted automatically after 30 days.</td><td>Google Cloud Firestore, EU</td></tr>
-<tr><td>Purchase records</td><td>When you subscribe</td><td>Unlocking Premium; our server checks the subscription status by your account or purchase ID</td><td>Google Play / Apple, RevenueCat</td></tr>
-<tr><td>App integrity check</td><td>When the app talks to our server</td><td>Confirming the request comes from the genuine app. It does not identify you.</td><td>Firebase App Check with Google Play Integrity</td></tr>
-<tr><td>Crash reports: error details, device model, operating system, app version, an installation identifier</td><td>If the app crashes or hits an error</td><td>Finding and fixing bugs. Not linked to your account; kept for 90 days.</td><td>Firebase Crashlytics</td></tr>
-<tr><td>Device push token</td><td>If you allow notifications</td><td>Sending reminders and family invites</td><td>Firebase Cloud Messaging</td></tr>
-<tr><td>Speech for pronunciation drills</td><td>When you tap the microphone in a drill</td><td>Scoring pronunciation</td><td>Your device's speech recognizer. Depending on your phone settings, the platform vendor (e.g. Google) may process this audio.</td></tr>
-</table>
-<p>We do not sell personal data, show ads, or use advertising identifiers. Data is encrypted in transit (HTTPS).</p>
-
-<h2 id="delete">Delete your account</h2>
-<p><strong>In the app:</strong> Settings → Account → "Delete account". Your account, cloud backup, homework submissions, and family and class membership are deleted from our servers straight away.</p>
-<p><strong>Without the app:</strong> email <a href="mailto:citrushelp@gmail.com?subject=SpeakGrove%20account%20deletion">citrushelp@gmail.com</a> from the address you signed up with, subject "SpeakGrove account deletion". We delete everything within 30 days and confirm by email. Subscriptions are cancelled separately in Google Play or the App Store.</p>
-
-<h2>Children</h2>
-<p>SpeakGrove is intended for users aged 13 and over and is not directed at children under 13.</p>
-
-<h2>Your rights</h2>
-<p>Depending on where you live (for example under the GDPR or Turkey's KVKK), you may request access to, correction of, or deletion of your data, and object to processing. Email us and we will reply within 30 days.</p>
-
-<h2>Changes</h2>
-<p>We will update this page when the app's data practices change and change the date above.</p>
-</section>
-
-<section id="tr">
-<h2>Türkçe özet</h2>
-<p>SpeakGrove'u hesap açmadan kullanabilirsiniz; ilerlemeniz cihazınızda kalır. Giriş yaparsanız (Google ya da e-posta) hesabınız Google Firebase'de, ilerlemeniz AB'deki (Belçika) Google Cloud Firestore'da saklanır. Aile ve sınıf üyeliğini sunucumuz, planı kontrol ettikten sonra yönetir. Canlı yapay zekâ öğretmeni (Premium ya da ücretsiz deneme) kullandığınızda mesajınız AB'deki sunucumuz üzerinden Google'ın Gemini modellerine (Vertex AI, AB) gönderilir; Google bu verileri model eğitimi için kullanmaz ve biz mesajları yanıttan sonra saklamayız. Ücretsiz plandaki çevrimdışı koç cihazda çalışır, hiçbir şey göndermez. Günlük yapay zekâ kullanım sayısı 30 gün sonra kendiliğinden silinir. Satın almaları Google Play/Apple ve RevenueCat işler. Çökme raporları (hesabınıza bağlanmadan, 90 gün) Firebase Crashlytics'e, bildirimler Firebase Cloud Messaging'e gider; uygulama bütünlüğü Google Play Integrity ile doğrulanır. Reklam göstermiyor, veri satmıyoruz. Uygulama 13 yaş ve üzeri içindir.</p>
-<p><strong>Hesap silme:</strong> Uygulamada Ayarlar → Hesap → "Hesabı sil" ile hesabınızı ve sunucudaki tüm verilerinizi hemen silebilirsiniz. Uygulamaya erişemiyorsanız kayıtlı e-posta adresinizden <a href="mailto:citrushelp@gmail.com?subject=SpeakGrove%20hesap%20silme">citrushelp@gmail.com</a> adresine "SpeakGrove hesap silme" konulu e-posta gönderin; verileriniz 30 gün içinde silinir. KVKK kapsamındaki haklarınız için aynı adrese yazabilirsiniz.</p>
-</section>
-</main>
+<p>SpeakGrove has moved to <a href="https://speakgrove.web.app/privacy/">speakgrove.web.app/privacy/</a>.</p>
 </body>
 </html>
